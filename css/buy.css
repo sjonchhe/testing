@@ -1,0 +1,569 @@
+body,html
+{
+	margin:0px;
+	padding:0px;
+	background:#5C5B5C;
+	font-family:tahoma;
+
+}
+/*GRID TYPES*/
+.grid10{
+		width:9%;
+}
+.grid25{
+		width:22%;
+}
+.grid20{
+		width:19%;
+}
+.grid30{
+		width:29%;
+}
+.grid35
+{
+	width:36.5%;
+}
+.grid40{
+		width:39%;
+}
+.grid45
+{
+	width:45%;
+}
+.grid50{
+		width:48%;
+}
+.grid55
+{
+	width:56%;
+}
+.grid60
+{
+	width:59%;
+}
+.grid70
+{
+	width:69%;
+}
+.grid90
+{
+	width:90%;
+}
+.grid95
+{
+	width:95%;
+}
+.grid100
+{
+	width:99%;
+}
+
+}
+/*FONT FAMILY PROPERTIES*/
+@font-face{
+			font-family:erasmedium;
+			src:url("../font/erasmd.ttf");
+}
+.font-eras{
+		font-family:erasmedium;
+	}
+@font-face{
+		font-family:sansation;
+		src:url("../font/sansation_regular.ttf");
+}
+.font-sansation{
+		font-family:Sansation;
+	}
+@font-face{
+
+		font-family:army;
+		src:url("../font/army.otf");
+	}
+.font-army{
+		font-family:army;
+	}
+@font-face{
+		font-family:smalltown;
+		src:url("../font/smalltownskyline.ttf");
+	}
+.font-smalltown{
+		font-family:smalltown;
+	}
+
+.font-tahoma{
+		font-family:tahoma;
+}
+.font-arial{
+		font-family:arial;
+}
+.back-trans{
+		background:rgba(0,0,0,0.6);}
+
+
+.text-black
+{
+	color:#222;
+}
+.text-white{
+			color:white;
+}
+.text-green{
+			color:#1E4708;
+}
+
+/*FLOATING PROPERTIES*/
+.right{
+		float:right;
+}
+.left{
+		float:left;
+}
+.center
+{
+
+}
+.wrapper
+{
+	width:90%;
+	overflow:hidden;
+	background:red;
+	height:auto;
+	background:url('gallery/gradient.png');background-attachment:fixed;background-size:cover;
+	background:#E3E3E3;
+}
+
+.navigation
+{
+	width:100%;
+	background:black;
+	color:black;
+	padding:1px;
+	background:rgba(0,0,0,0.92);
+
+
+
+}
+.navigation ul
+{
+
+}
+.navigation ul li
+{
+	display:inline;
+}
+
+.navigation ul li a
+{
+	text-decoration:none;
+	color:white;
+	padding:10px 10px 10px 10px;
+}
+.navigation ul li a:hover
+{
+	background:white;
+	color:black;
+	border:0px;
+	border-radius:5px;
+	box-shadow:0px 1px 5px #E3E8EB;
+
+}
+.current
+{
+	background:red;
+	border-radius:3px;
+
+}
+
+.container
+{
+	width:98%;
+	//border:1px solid black;
+	margin:10px;
+	//background:white;
+	height:500px;
+	padding:5px;
+
+}
+.left_col
+{
+	//border:1px solid black;
+	background:white;
+	box-shadow:0px 2px 8px black;
+	margin:0px 5px 5px 20px;
+	height:470px;
+	min-height:470px;
+	padding:5px;
+	overflow:hidden;
+
+	}
+.container .left_col .pic img
+{
+	width:100%;
+	overflow:hidden;
+	height:350px;
+}
+.container .left_col .pic_nav
+{
+	width:100%;
+
+
+	height:60px;
+
+}
+.pic_nav ul li
+{
+	display:inline;
+	list-style-type:none;
+
+}
+.pic_nav img
+{
+	width:30%;
+	float:left;
+	margin:2px;
+
+
+}
+.right_col
+{
+	background:white;
+	box-shadow:0px 2px 8px black;
+	//border:1px solid black;
+	padding:10px 2px 0px 7px;
+	text-align:left;
+	margin:0px 5px 0px 10px;
+
+
+
+}
+.right_col .title
+{
+	font-size:30px;
+	text-align:left;
+	padding:5px 0px 5px 0px;
+
+}
+.right_col .reviews
+{
+	color:#212121;
+	border-top:1px solid silver;
+	border-bottom:1px solid silver;
+	margin:10px;
+	padding:5px 0px 5px 0px;
+}
+.right_col .desc
+{
+	font-size:13px;
+	margin:3px;
+	padding:1px 0px 5px 0px;
+
+}
+.right_col .money
+{
+	border-top:1px solid silver;
+	border-bottom:1px solid silver;
+	margin:10px;
+	padding:10px 0px 10px 10px;
+	line-height:30px;
+}
+button
+{
+	border:0px;
+	border-radius:5px;
+
+	padding:10px 15px 10px 15px;
+
+	margin:13px 5px 10px 5px;
+}
+select
+{
+	padding:5px;
+	}
+.cart
+{
+	border:2px solid #FF8831;
+	background:white;
+	color:#FF8831;
+	font-size:20px;
+	transition:all 0.5s;
+}
+.cart:hover
+{
+	background:#FF8831;
+	color:white;
+}
+.buy
+{
+	border:2px solid #6FB03B;
+	background:white;
+	color:#6FB03B;
+	font-size:20px;
+	transition:all 0.5s;
+
+}
+.buy:hover
+{
+	background:#6FB03B;
+	color:white;
+}
+.specification
+{
+
+
+		float:left;
+		margin:-20px 17px 10px 35px;
+	//		background:red;
+}
+.specification .specstable
+{
+	background:#FFFFFF;
+	box-shadow:0px 2px 8px black;
+	border:0px;
+	padding:10px;
+	border-spacing:0px;
+
+}
+.specstable td
+{
+	padding:5px;
+	border:0.5px solid #161719;
+	border-right:0px;
+	border-left:0px;
+	border-top:0px;
+	padding-bottom:10px;
+
+	text-align:left;
+}
+
+.specstable td:nth-child(odd)
+{
+	background:#E3E3E3;
+	color:black;
+
+	border:1px solid black	;
+	border-right:0px;
+	border-left:0px;
+	border-top:0px;
+	border-radius:5px 0px 0px 5px;
+
+}
+.specstable td:nth-child(even)
+{
+	text-align:left;
+}
+/*VIDEOTABS PROPERTIES START*/
+.videotab{
+
+					font-size:15px;
+					color:#FFF;
+					//background:rgba(0,0,0,0.1);
+					float:right;
+					overflow:hidden;
+					box-shadow:0px 2px 20px black;
+					height:280px;
+					background:white;
+					text-align:center;
+					margin:-20px 39px 0px 0px;
+
+				}
+
+.videotab	ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;*/
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+
+.videotab ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px; /*distance between tabs*/
+		box-shadow:0px 2px 10px black;
+
+}
+
+.videotab ul.tabs li a
+{
+    font-size:15px ;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background:white;
+    border-radius: 5px 5px 0 0;
+    outline:none;
+}
+
+.videotab ul.tabs li a:visited
+{
+    color: #000	;
+}
+
+.videotab ul.tabs li a:hover
+{
+    border: 1px solid #B7B7B7;
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+}
+
+.videotab ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    position: relative;
+    top: 0px;
+    background: white;
+    border: 1px solid #E62117;
+    border-bottom-color: white;
+		background:#E62117;
+		color:white;
+}
+
+
+.videotab ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+
+
+.videotab .tabcontents
+{
+    border: 1px groove gray;
+		border-top:0px;
+    background-color:#fff;
+    border-radius: 0 3px 3px 3px;
+		font-size:12px;
+		color:black;
+		text-align:left;
+		padding:10px;
+		height:280px;
+		background:#E3E3E3;
+		width:140%;
+
+}
+.videotab .tabcontents object
+{
+	width:98%;
+	height:80%;
+}
+
+/*END OF VIDEOTAB PROPERTIES*/
+
+/*TABS PROPERTIES START*/
+.desc1 {
+
+					font-size:15px;
+					color:#FFF;
+					//background:rgba(0,0,0,0.1);
+					float:right;
+					overflow:hidden;
+					box-shadow:0px 2px 20px black;
+					height:280px;
+					background:white;
+					text-align:center;
+					margin:15px 39px 0px 0px;
+					overflow-y:scroll;
+				}
+
+	.desc1 ul.tabs
+{
+    padding: 7px 0px;
+    font-size: 0;
+    margin:0;*/
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+
+.desc1 ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px; /*distance between tabs*/
+		box-shadow:0px 2px 10px black;
+
+}
+
+.desc1 ul.tabs li a
+{
+    font-size:15px ;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background:white;
+    border-radius: 5px 5px 0 0;
+    outline:none;
+}
+
+.desc1 ul.tabs li a:visited
+{
+    color: #000	;
+}
+
+.desc1 ul.tabs li a:hover
+{
+    border: 1px solid #B7B7B7;
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+}
+
+.desc1 ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    position: relative;
+    top: 0px;
+    background: white;
+    border: 1px solid black;
+    border-bottom-color: white;
+		background:#121212;
+		color:white;
+}
+
+
+.desc1 ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+
+
+.desc1 .tabcontents
+{
+    border: 1px groove gray;
+		border-top:0px;
+    background-color:#fff;
+    border-radius: 0 3px 3px 3px;
+		font-size:12px;
+		color:black;
+		width:140%;
+		text-align:left;
+		padding:10px;
+			height:280px;
+			background:#E3E3E3;
+
+
+
+}
+.desc1 .tabcontents ul li
+{
+	font-size:13px;
+}
+/*END OF TAB PROPERTIES*/
+/*START OF PAYMENT TAB*/
+.payment
+{
+	background:white;
+	height:80px;
+	margin:15px 39px 10px 0px;
+	box-shadow:0px 2px 10px black;
+	padding:7px 0px 6px 0px;
+}
+
+.payment img
+{
+	height:65%;
+	width:20%;
+	margin:10px 5px 10px 5px;
+
+}

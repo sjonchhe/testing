@@ -1,0 +1,50 @@
+.footer
+{
+	background:#121212;
+	color:white;
+	height:250px;
+	padding-top:20px;
+	font-weight:bolder;
+}
+.followus
+{
+
+}
+.followus img
+{
+	width:9%;
+	height:45px;
+	margin:5px;
+}
+.followus img:hover
+{
+
+}
+.moblieapp
+{
+	padding-top:20px;
+}
+.mobileapp img
+{
+	width:32%;
+	height:50px;
+	margin:10px;
+}
+.stuff table
+{
+	//background:blue;
+	color:white;
+	border-spacing:0px 8px;
+	font-size:13px;
+}
+
+.stuff td img
+{
+	height:50px;
+	width:85%;
+	float:left;
+}
+.stuff section
+{
+	margin-top:15px;
+}

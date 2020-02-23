@@ -1,0 +1,151 @@
+<html>
+<head><title></title>
+<style>
+#logbox{
+		position:absolute;
+		margin:0 0 0 -100;
+		height:450px;
+		width:800px;
+		background:white;
+		border:solid 1px #ccc;
+		box-shadow:0px 0px 50px black;
+transition:all 0.5s;
+		-webkit-transform:rotatey(90deg);}
+
+#basketbox{background:white;
+		height:820px;
+		width:800px;
+		border:solid 1px black;
+		position:absolute;
+		margin:-100px 0 0 -160px;
+box-shadow:0 0 100px black;
+transition:all 0.5s;
+-webKit-transform:rotatex(90deg);}
+
+
+#d{height:30px; width:200px; background:red;border:solid 1px black; margin:300px 0 0 150px; cursor:pointer;position:absolute;}
+
+#logbox h1{font-family:Khmer UI;
+	position:absolute;
+	margin:30px 0 0 50px;
+	font-size:20px;
+	background:none;}
+
+
+
+
+#logbox h3{font-family:Khmer UI;
+	position:absolute;
+	margin:100px 0 0 50px;
+	font-size:15px;
+	}
+
+
+
+
+
+#logbox p{font-family:Khmer UI;
+	position:absolute;
+	margin:140px 0 0 50px;
+	}
+
+#logbox  a{font-family:Khmer UI;
+	position:absolute;
+	margin:330 0px 0 50px;
+	}
+
+#create{background:none;
+	 height:450px;
+	width:400px;
+	float:right;}
+
+
+
+#user{height:25px;
+	margin:210px 0 0 50px;
+	position:Absolute;
+	width:200px;}
+
+
+
+</style>
+<script>
+function account()
+{
+document.getElementById("logbox").style.webkitTransform="rotatex(360deg)";
+//document.getElementById("img").style.opacity="0.5";
+
+document.getElementById("header").style.opacity="0.2";
+document.getElementById("logbox").style.display="block";
+document.getElementById("logbox").style.position="fixed";
+document.getElementById("uli").style.opacity="0.2";
+}
+
+function non()
+{
+document.getElementById("logbox").style.display="none";
+
+document.getElementById("header").style.opacity="";
+document.getElementById("uli").style.opacity="";
+
+
+}
+</script>
+
+</head>
+<body>
+
+	<p onClick="account()" style="cursor:pointer;">MY ACCOUNT</p>
+	<img src="images/basket.png" onClick="rotatee()" style="cursor:pointer" >
+
+<div id="logbox">
+
+<h1 onClick='non()' style="color:red; margin:0 0 0  750px; font-size:40px; opacity:0.5; cursor:pointer;">X</h1>
+
+<div id="line"></div>
+<H1>LOG   IN / CREATE  ACCOUNT</H1>
+
+<p>Enter your e-mail adress and password to log in</p>
+
+<h3>EXISTING lING ME.COM COUSTOMER</H3>
+
+<h5 style="position:absolute; margin:180px 0 0 50; font-family:Khmer UI;">E-MAIL</h5>
+
+<h5 style="font-family:Khmer UI; font-size:12px;position:absolute;
+margin:250px 0 0 50px; ">PASSWORD</h5>
+
+<a href="">Have u forget you forget password ??</p></a>
+
+
+<form name="f1" method="" action="">
+<input type="text" id="user">
+	0
+<input type="text" id="pass">
+
+</form>
+
+<div id="create"></div>
+
+<h3 style="
+
+
+font-family:Khmer UI;
+	position:absolute;
+	margin:100 0 0 420px;
+	font-size:15px;">NEW LING ME.COM CUSTOMER</h3>
+
+
+<p style="font-family:Khmer UI;
+	position:absolute;
+	margin:140px 0 0 420px;
+	font-size:15px;">If u dont have ling Me account use this <br>option to acess the register form.<br><br>By giving us your details,purchasing in LING ME.com <br>will be a faster and enjoyable expression</p>
+
+<input type="submit" value="LOG IN" style="height:30px; width:200px; background:black;border:solid 1px black; margin:380px 0 0 80px; cursor:pointer; color:white;"/>
+
+<a href="create.html"><input type="button" value="CREATE ACCOUNT"  style="height:30px; width:200px; background:black;border:solid 1px black; margin:0px 0 0 150px; cursor:pointer;position:absolute; color:white;"> </a>
+
+
+
+</div>
+</body>
+</html>
